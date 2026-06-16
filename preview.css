@@ -106,18 +106,3 @@ main a[style*="position: absolute"] {
   top: auto !important;
   left: auto !important;
 }
-/* Prevent horizontal scrolling on Home and About pages */
-html,
-body {
-  max-width: 100%;
-  overflow-x: hidden !important;
-}
-
-.page-shell,
-.hero,
-.about-page,
-.about-section,
-main {
-  max-width: 100%;
-  overflow-x: hidden;
-}
