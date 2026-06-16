@@ -106,3 +106,7 @@ main a[style*="position: absolute"] {
   top: auto !important;
   left: auto !important;
 }
+/* Prevent horizontal page scroll without affecting hero layout */
+body {
+  overflow-x: hidden;
+}
