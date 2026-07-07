@@ -115,3 +115,20 @@ body {
   height: 90px !important;
   min-height: 90px !important;
 }
+/* About page: keep text high, shapes behind */
+.about-page .hero {
+  height: 220px !important;
+  min-height: 220px !important;
+  position: relative;
+}
+
+.about-page .hero .shape {
+  z-index: 1 !important;
+  pointer-events: none;
+}
+
+.about-page .about-content {
+  position: relative;
+  z-index: 10 !important;
+  padding-top: 40px !important;
+}
