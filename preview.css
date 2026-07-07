@@ -112,6 +112,6 @@ body {
 }
 /* Fix empty hero spacing on About page only */
 .about-page .hero {
-  height: 180px !important;
-  min-height: 180px !important;
+  height: 100px !important;
+  min-height: 100px !important;
 }
