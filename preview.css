@@ -140,7 +140,7 @@ body {
   padding-top: 60px !important;
 }
 /* Hide Indeed and center LinkedIn */
-.social a:first-child {
+.social a:last-child {
     display: none !important;
 }
 
@@ -149,6 +149,6 @@ body {
     gap: 0 !important;
 }
 
-.social a:last-child {
+.social a:first-child {
     margin: 0 auto;
 }
