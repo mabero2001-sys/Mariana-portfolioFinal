@@ -135,3 +135,7 @@ body {
 .about-page .about-content {
     transform: translateY(-90px);
 }
+/* Final About connect spacing fix */
+.about-page .connect {
+  padding-top: 60px !important;
+}
