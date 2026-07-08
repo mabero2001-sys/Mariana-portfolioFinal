@@ -132,3 +132,6 @@ body {
   z-index: 10 !important;
   padding-top: 40px !important;
 }
+.about-page .about-content {
+    transform: translateY(-40px);
+}
