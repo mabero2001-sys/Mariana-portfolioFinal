@@ -139,3 +139,16 @@ body {
 .about-page .connect {
   padding-top: 60px !important;
 }
+/* Hide Indeed and center LinkedIn */
+.social a:first-child {
+    display: none !important;
+}
+
+.social {
+    justify-content: center !important;
+    gap: 0 !important;
+}
+
+.social a:last-child {
+    margin: 0 auto;
+}
